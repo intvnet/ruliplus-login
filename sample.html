@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+</head>
+<body>
+	<button onClick="get()">Sign in with Ruliplus</button>
+	<script src="https://ruliplus.com/2game/39r9orufeh/sign.js"></script>
+	<script>
+	        //ruriplus id info request
+		function get(){
+			ruliplus_sign.get_member_info();
+		}
+	        //ruliplus id info response
+		window.addEventListener("message", function(e){
+			//id info JSON
+			console.log(e.data);
+		}, false);	
+	</script>
+</body>
+</html>
