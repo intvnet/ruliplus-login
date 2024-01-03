@@ -9,9 +9,9 @@
 **ruliplus_sign.get_member_info()**<br>
 *JS Window.postMessage() use ID info Data send*
 #### **req URL (only)**
-**https://2game.com/<br>**
+**https://2game.com<br>**
 or<br>
-**https://www.2game.com/**
+**https://www.2game.com**
 <br><br>
 
 ### ※ How to receive Data
