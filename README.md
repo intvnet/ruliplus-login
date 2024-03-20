@@ -1,4 +1,4 @@
-# Sign in with Ruliplus
+# Sign in with 2game
 
 ### ※ Getting Start
 ```
